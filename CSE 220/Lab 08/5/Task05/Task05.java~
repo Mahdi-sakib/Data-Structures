@@ -1,0 +1,22 @@
+public class Task05{
+    public static void main (String[] args){
+        Object[] num= {29, 11, 33, 14, 16, 22, 8, 48, 51, 37};
+        DoublyList list= new DoublyList(num);
+        list.forwardprint();
+        
+        int length= list.countNode();
+        Object key;
+        
+        
+        
+        for (Node x=list.head.next; x!=null; x=x.next){
+            key=x.element;
+            for (Node y=x.prev; (Integer)y.element> (Integer)key; y=y.prev){
+                y.next.element= y.element;
+            }
+        }
+        
+        list.forwardprint();
+    }
+}
+        

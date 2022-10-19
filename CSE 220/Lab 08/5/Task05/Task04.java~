@@ -1,0 +1,5 @@
+public class Task05{
+    public static void main (String[] args){
+        Object[] num= {29, 11, 33, 14, 16, 22, 8, 48, 51, 37};
+        DoublyList list= new DoublyList(num);
+        

@@ -1,0 +1,7 @@
+class LinkedList {
+
+  public LinkedList() {
+  
+    
+  }
+}

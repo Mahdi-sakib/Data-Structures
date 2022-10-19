@@ -1,0 +1,5 @@
+public class Task01{
+    
+    public static void main (String[] args){
+        int[] num= {46, 56, 48, 59, 12, 23, 50, 79, 95, 42, 13, 35, 67, 91, 65};
+        
